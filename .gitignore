@@ -28,4 +28,4 @@ fp-info-cache
 *.xml
 
 # Backups folder
-*/backups
+/ICM-42688-P/production/backups/
