@@ -29,4 +29,10 @@ fp-info-cache
 
 # Backups folder
 /ICM-42688-P/production/backups/
+
+# Lock
+*.lck
+
+# Stuff that isnt mine
 /3D Models/USB_type_C_smd_24p.stp
+/ICM-42688-P/HRO TYPE-C-31-M-14.stp
