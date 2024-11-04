@@ -5,7 +5,7 @@ Layer height modifier required to print properly
 Thick bridges ON
 * The .3mf is for Orca Slicer. I print with a Bambu Labs P1S.
 
-![Front](front.jpg "Photos")
-![Iso](iso.jpg)
-![Top](top.jpg)
-![Top side measurement](topside.jpg)
+![Front](Photos/front.jpg "Photos")
+![Iso](Photos/iso.jpg)
+![Top](Photos/top.jpg)
+![Top side measurement](Photos/topside.jpg)
