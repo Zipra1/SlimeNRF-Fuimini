@@ -29,6 +29,7 @@ fp-info-cache
 
 # Backups folder
 /ICM-42688-P/production/backups/
+/Dock PCB/production/backups/
 
 # Lock
 *.lck

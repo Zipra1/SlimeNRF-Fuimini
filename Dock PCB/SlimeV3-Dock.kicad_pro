@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.8,
-          "width": 1.8
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -58,20 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "clearance|135684900|91010000|73bc6e5c-9395-45c1-9b80-44ca8eac8835|aa53a709-af8d-4930-ae47-a1b67a955a88",
-        "clearance|135684900|95310000|3f9bd27e-25fc-4db0-a646-9b0bf68b1bc6|3573c8ba-e132-4c03-a469-d657f43c2e73",
-        "padstack|136284900|91010000|73bc6e5c-9395-45c1-9b80-44ca8eac8835|00000000-0000-0000-0000-000000000000",
-        "padstack|136284900|95310000|3f9bd27e-25fc-4db0-a646-9b0bf68b1bc6|00000000-0000-0000-0000-000000000000",
-        "silk_overlap|142909695|79274600|863ace9a-485c-48fc-8595-1bffb6f33b58|d11fcee6-f14a-4fe5-af00-a845469c88ec",
-        "silk_overlap|142909695|81052600|525938c1-c29d-40c7-be8a-e7f7c75186a7|fd10243a-b7aa-42ee-932b-0ac554d14601",
-        "silk_overlap|143846955|78837720|369ec637-8056-4ca4-a5b4-a1b1ebd3df15|2669ae09-403b-4db2-8310-998b1ac4355d",
-        "silk_overlap|143846955|81489480|0b0416c2-5073-477d-a461-775bc3160e3a|30fb5417-6b98-4364-b0e1-fbeca464823a",
-        "silk_overlap|145127115|78837720|86ffe7cf-6c7a-4b2c-b51a-cc82b2603253|1054d044-17cd-409d-b393-0fb3e30ddc01",
-        "silk_overlap|145127115|81489480|76f61384-b391-4f16-a216-9a5cefa4dade|8600f561-216b-4d19-8297-eeb29c8cadca",
-        "silk_overlap|146064375|79274600|acefcf58-467e-45aa-a286-afe09b30b54e|390eb9fb-6e51-4626-a24b-1ac0131b6c29",
-        "silk_overlap|146064375|81052600|aeefddc2-ad26-4bb2-963e-9c1435364bd3|f5bab42e-e401-48ac-af3e-b923492bce06"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -99,7 +86,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "ignore",
+        "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
@@ -114,7 +101,7 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "ignore",
+        "starved_thermal": "error",
         "text_height": "warning",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
@@ -193,7 +180,8 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.4
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -459,7 +447,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "SV4_ICM.kicad_pro",
+    "filename": "SlimeV3-Dock.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -497,7 +485,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "SV4.step",
+      "step": "",
       "svg": "",
       "vrml": ""
     },
@@ -555,29 +543,11 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MPN",
-          "name": "MPN",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "",
+      "name": "Grouped By Value",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -622,7 +592,7 @@
   },
   "sheets": [
     [
-      "a7c00f74-135d-49a9-8541-ca5663fb79a7",
+      "3dd8c8b8-7053-4389-b19a-7abea15c5d0b",
       "Root"
     ]
   ],
