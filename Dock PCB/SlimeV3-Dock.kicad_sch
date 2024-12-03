@@ -950,6 +950,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 88.9) (xy 35.56 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56b03e60-eeb6-4ca9-aa2b-f477d4c02702")
+	)
+	(wire
+		(pts
 			(xy 85.09 81.28) (xy 67.31 81.28)
 		)
 		(stroke
@@ -957,16 +967,6 @@
 			(type default)
 		)
 		(uuid "57f124ac-6123-4b19-ad47-ded83d7d208b")
-	)
-	(wire
-		(pts
-			(xy 25.4 91.44) (xy 35.56 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7470b2ca-0628-4f7e-98fa-f337c167b149")
 	)
 	(wire
 		(pts
@@ -987,6 +987,16 @@
 			(type default)
 		)
 		(uuid "a231abfa-a088-4f62-9ded-c16f03f7d024")
+	)
+	(wire
+		(pts
+			(xy 44.45 88.9) (xy 54.61 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7f52219-9c21-4e26-baf2-4cc97c9937ac")
 	)
 	(wire
 		(pts
@@ -1047,16 +1057,6 @@
 			(type default)
 		)
 		(uuid "df60f206-e472-40d3-a0bf-a010edeb84c4")
-	)
-	(wire
-		(pts
-			(xy 44.45 91.44) (xy 54.61 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e688384f-2ac8-4ce8-9094-a4e15ef50944")
 	)
 	(wire
 		(pts
@@ -1132,6 +1132,28 @@
 	)
 	(global_label "VBUS"
 		(shape input)
+		(at 25.4 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "386d3c7c-5e23-4849-87ed-00ec095652a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.2838 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS"
+		(shape input)
 		(at 95.25 88.9 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1198,28 +1220,6 @@
 	)
 	(global_label "VBUS"
 		(shape input)
-		(at 25.4 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "577b7f3c-3c1c-49b0-871b-191469bd7f13")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.2838 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBUS"
-		(shape input)
 		(at 74.93 88.9 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1236,6 +1236,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS"
+		(shape input)
+		(at 44.45 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bde91216-e5a5-4f96-93c2-b118fde31e36")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.3338 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -1275,28 +1297,6 @@
 		(uuid "eb8cc03c-7a90-4738-a98d-3be1c9129024")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 33.2838 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBUS"
-		(shape input)
-		(at 44.45 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f64db97f-4c80-43ae-a48c-0eb842f3e240")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.3338 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1689,72 +1689,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "177af5a1-8387-43e9-bf01-03ee4465c4b3")
-		(property "Reference" "#PWR01"
-			(at 35.56 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 35.56 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 35.56 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1816f993-6cb4-45da-b3c8-a2026c2fd49a")
-		)
-		(instances
-			(project "SlimeV3-Dock"
-				(path "/3dd8c8b8-7053-4389-b19a-7abea15c5d0b"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 48.26 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1814,72 +1748,6 @@
 			(project "SlimeV3-Dock"
 				(path "/3dd8c8b8-7053-4389-b19a-7abea15c5d0b"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 54.61 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5712ca24-d6e2-4de6-a0bd-eaa6df372cfc")
-		(property "Reference" "#PWR04"
-			(at 54.61 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 54.61 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 54.61 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8aa8542a-6792-4408-81e0-e94e53ce85cb")
-		)
-		(instances
-			(project "SlimeV3-Dock"
-				(path "/3dd8c8b8-7053-4389-b19a-7abea15c5d0b"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -1961,6 +1829,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 54.61 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d1747a0-9d78-4a69-ac1e-d456a3716b14")
+		(property "Reference" "#PWR04"
+			(at 54.61 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2ec05de-075f-4542-8bc7-2334599ebe02")
+		)
+		(instances
+			(project "SlimeV3-Dock"
+				(path "/3dd8c8b8-7053-4389-b19a-7abea15c5d0b"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 80.01 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2020,6 +1954,72 @@
 			(project "SlimeV3-Dock"
 				(path "/3dd8c8b8-7053-4389-b19a-7abea15c5d0b"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 35.56 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "895dfbdd-6fbf-4152-9281-5d2340d99bba")
+		(property "Reference" "#PWR01"
+			(at 35.56 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd6b108f-049c-45f2-9d35-6de7b2fd40d6")
+		)
+		(instances
+			(project "SlimeV3-Dock"
+				(path "/3dd8c8b8-7053-4389-b19a-7abea15c5d0b"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)

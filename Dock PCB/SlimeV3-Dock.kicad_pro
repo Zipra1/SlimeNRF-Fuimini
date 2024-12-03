@@ -185,7 +185,8 @@
       ],
       "track_widths": [
         0.0,
-        0.4
+        0.4,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -489,7 +490,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "SlimeV3-Dock.step",
       "svg": "",
       "vrml": ""
     },

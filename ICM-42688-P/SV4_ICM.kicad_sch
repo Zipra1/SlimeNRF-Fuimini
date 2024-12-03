@@ -5329,7 +5329,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "100nF"
 			(at 110.49 66.04 90)
 			(effects
 				(font
