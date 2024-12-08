@@ -70,7 +70,9 @@
         "silk_overlap|145127115|78837720|86ffe7cf-6c7a-4b2c-b51a-cc82b2603253|1054d044-17cd-409d-b393-0fb3e30ddc01",
         "silk_overlap|145127115|81489480|76f61384-b391-4f16-a216-9a5cefa4dade|8600f561-216b-4d19-8297-eeb29c8cadca",
         "silk_overlap|146064375|79274600|acefcf58-467e-45aa-a286-afe09b30b54e|390eb9fb-6e51-4626-a24b-1ac0131b6c29",
-        "silk_overlap|146064375|81052600|aeefddc2-ad26-4bb2-963e-9c1435364bd3|f5bab42e-e401-48ac-af3e-b923492bce06"
+        "silk_overlap|146064375|81052600|aeefddc2-ad26-4bb2-963e-9c1435364bd3|f5bab42e-e401-48ac-af3e-b923492bce06",
+        "starved_thermal|136118600|78816200|34157fd5-2fbe-4cb6-aa28-38b111633e49|6d17776d-e1bb-41db-a280-ca66a2c5d944|B.Cu",
+        "starved_thermal|136118600|78816200|34157fd5-2fbe-4cb6-aa28-38b111633e49|6d17776d-e1bb-41db-a280-ca66a2c5d944|F.Cu"
       ],
       "meta": {
         "version": 2
@@ -114,7 +116,7 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "ignore",
+        "starved_thermal": "warning",
         "text_height": "warning",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
