@@ -4,7 +4,7 @@ If you want a dock with # of trackers that isn't included here, feel free to [co
 
 * The .3mf is for Orca Slicer. I print with a Bambu Labs P1S.
 
-![Front](Photos/raw/frontiso.jpg "Photos")
-![Back](Photos/raw/backiso.jpg)
-![Bottom](Photos/raw/hangback.jpg)
-![Charging](Photos/raw/fronttracker.jpg)
+![Front](Photos/Raw/frontiso.jpg "Photos")
+![Back](Photos/Raw/backiso.jpg)
+![Bottom](Photos/Raw/hangback.jpg)
+![Charging](Photos/Raw/fronttracker.jpg)
