@@ -6,6 +6,7 @@ Wall mounts are for generic 1¼" drywall screws.\
 Uses [Treedix USB Type-C Breakout Board](https://www.amazon.ca/gp/product/B096M2HQLK) as the USB C input. This isn't a custom PCB because only one is required per dock, it's cheaper to order these than a custom pcb in small quantities.\
 
 ![Treedix USB Type-C Breakout Board](Photos/treedix.png)\
+
 * The .3mf is for Orca Slicer. I print with a Bambu Labs P1S.
 
 ![Front](Photos/Raw/frontiso.jpg "Photos") ![Back](Photos/Raw/backiso.jpg)\
