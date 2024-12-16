@@ -12,3 +12,5 @@ Detailed README.md files are in folders.
 ok well im not selling them yet. But soon! ^w^
 
 (photos will go here once i'm mostly finished)
+
+Curious where prices come from? View the entire spreadsheet [here.](https://docs.google.com/spreadsheets/d/1-DEjWeG9QTNUDS4sDUu9tLBtSAE7vLcxPEyWA9YvnTc/edit?usp=sharing)
