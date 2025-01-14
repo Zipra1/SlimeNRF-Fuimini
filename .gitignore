@@ -37,3 +37,7 @@ fp-info-cache
 # Stuff that isnt mine
 /3D Models/USB_type_C_smd_24p.stp
 /ICM-42688-P/HRO TYPE-C-31-M-14.stp
+
+# Stuff too big to share
+/Tracker/Photos/Processed
+/Dock/Photos/Processed/Processing.psd
