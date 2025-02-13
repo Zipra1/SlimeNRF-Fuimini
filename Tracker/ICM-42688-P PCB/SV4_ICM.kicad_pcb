@@ -6958,7 +6958,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "MP-S-4.4.1"
+	(gr_text "MP-S-4.4.2"
 		(at 151.003 98.171 270)
 		(layer "B.Mask")
 		(uuid "5eb4e002-b10c-47a5-8982-64488cea1df0")
